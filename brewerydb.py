@@ -1,7 +1,7 @@
 import requests
 
-DEFAULT_BASE_URI = "http://api.brewerydb.com/v2"
-BASE_URI = ""
+DEFAULT_BASE_URI = "https://sandbox-api.brewerydb.com/v2/"
+BASE_URI = "https://sandbox-api.brewerydb.com/v2/"
 API_KEY = ""
 
 simple_endpoints = ["beers", "breweries", "categories", "events",
